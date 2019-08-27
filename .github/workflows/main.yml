@@ -3,7 +3,7 @@ name: gh-pages
 on:
   push:
     branches:
-    - master
+      - master
   repository_dispatch:
 
 jobs:
@@ -11,32 +11,32 @@ jobs:
     name: Build Page
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@master
-      name: Clone source code for build
-      with:
-        repository: cybertec-postgresql/today-i-learned
-        token: ${{ secrets.GH_TOKEN }}
-        ref: master
-        path: today-i-learned
-    - uses: actions/checkout@master
-      name: Clone content
-      with:
-        path: today-i-learned/content
-    - uses: actions/setup-node@master
-      name: Install node
-      with:
-        node-version: "10.x"
-    - name: Install yarn
-      working-directory: /home/runner/work/today-i-learned-content/today-i-learned
-      run: npm install -g yarn gh-pages
-    - name: Install dependencies
-      working-directory: /home/runner/work/today-i-learned-content/today-i-learned
-      run: yarn install
-    - run: yarn build
-      working-directory: /home/runner/work/today-i-learned-content/today-i-learned
-      name: Build site
-    - run: gh-pages -d public -b master -r https://sascha8a:$GITHUB_TOKEN@github.com/cybertec-postgresql/today-i-learned-gh-pages.git -u "Cybertec Bot <no-reply@cybertec.at>"
-      name: Deploy
-      working-directory: /home/runner/work/today-i-learned-content/today-i-learned
-      env:
-        GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+      - uses: actions/checkout@master
+        name: Clone source code for build
+        with:
+          repository: cybertec-postgresql/today-i-learned
+          token: ${{ secrets.GH_TOKEN }}
+          ref: master
+          path: today-i-learned
+      - uses: actions/checkout@master
+        name: Clone content
+        with:
+          path: today-i-learned/content
+      - uses: actions/setup-node@master
+        name: Install node
+        with:
+          node-version: "10.x"
+      - name: Install yarn
+        working-directory: /home/runner/work/today-i-learned-content/today-i-learned
+        run: npm install -g yarn gh-pages
+      - name: Install dependencies
+        working-directory: /home/runner/work/today-i-learned-content/today-i-learned
+        run: yarn install
+      - run: yarn build
+        working-directory: /home/runner/work/today-i-learned-content/today-i-learned
+        name: Build site
+      - run: gh-pages -d public -b master -r https://sascha8a:$GITHUB_TOKEN@github.com/cybertec-postgresql/today-i-learned-gh-pages.git -u "Cybertec Bot <no-reply@cybertec.at>"
+        name: Deploy
+        working-directory: /home/runner/work/today-i-learned-content/today-i-learned
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
