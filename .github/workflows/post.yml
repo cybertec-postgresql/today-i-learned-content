@@ -1,0 +1,46 @@
+name: publish
+
+on:
+  repository_dispatch:
+  schedule:
+    - cron:  '0 * * * *'
+
+jobs:
+  publish:
+    name: Publish new post
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+      name: Clone bot
+      with:
+        repository: cybertec-postgresql/today-i-learned-bot
+        token: ${{ secrets.GH_TOKEN }}
+        ref: master
+        path: today-i-learned
+    - uses: actions/checkout@master
+      name: Clone content
+      with:
+        path: today-i-learned/today-i-learned-content
+    - name: Authenticate
+      run: |
+        echo "https://CybertecBot:$GITHUB_TOKEN@github.com" > $HOME/.git-credentials
+        git config --global credential.helper store
+        git config --global user.email "no-reply@cybertec.at"
+        git config --global user.name "CybertecBot"
+      env:
+        GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+    - uses: actions/setup-node@master
+      name: Install node
+      with:
+        node-version: '10.x'
+    - name: Install yarn 
+      working-directory: /home/runner/work/today-i-learned-content/today-i-learned
+      run: npm install -g yarn gh-pages
+    - name: Install dependencies
+      working-directory: /home/runner/work/today-i-learned-content/today-i-learned
+      run: yarn install
+    - run: yarn start
+      working-directory: /home/runner/work/today-i-learned-content/today-i-learned
+      name: Run bot
+      env:
+        GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
