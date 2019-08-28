@@ -1,7 +1,6 @@
 name: publish
 
 on:
-  repository_dispatch:
   schedule:
     - cron: "15 * * * *"
 
