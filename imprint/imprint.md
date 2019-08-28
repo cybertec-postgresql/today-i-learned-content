@@ -30,9 +30,3 @@ Place of media owner: Wiener Neustadt
 Media producer: Cybertec Schönig & Schönig GmbH
 
 Editorial concept: Informations about IT-services and PostgreSQL-database systems </br>
-
-### General Terms and Conditions
-
-[Standard Business Terms / TaC (EN)](./AGB_Stand-2018_EN.pdf)
-
-[Allgemeine Geschäftsbedingungen / AGB (DE)](./AGB_Stand-2018_DE.pdf)
