@@ -1,7 +1,14 @@
 - email: sascha.lampalzer@cybertec.at
   name: Alexander Lampalzer
   subtitle: "Software Developer"
-  twitter: "@test"
+  github: sascha8a
 - email: lorenz.henk@cybertec.at
   name: Lorenz Henk
   subtitle: "Software Developer"
+- email: philip.trauner@cybertec.at
+  name: Philip Trauner
+  subtitle: Software Developer
+  twitter: PhilipTrauner
+  github: PhilipTrauner
+  linkedin: philip-trauner
+  web: https://philip-trauner.me
