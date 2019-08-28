@@ -3,7 +3,7 @@ name: publish
 on:
   repository_dispatch:
   schedule:
-    - cron: "15 * * * *"
+    - cron: "0 15 * * *"
 
 jobs:
   publish:
