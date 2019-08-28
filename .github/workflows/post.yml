@@ -20,6 +20,7 @@ jobs:
         name: Clone content
         with:
           path: today-i-learned/today-i-learned-content
+          lfs: true
       - name: Authenticate
         run: |
           echo "https://CybertecBot:$GITHUB_TOKEN@github.com" > $HOME/.git-credentials
