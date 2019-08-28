@@ -38,7 +38,7 @@ We make every effort to ensure the security of your data within the framework of
 
 Your personal data will be transmitted encrypted. We use the SSL (Secure Socket Layer) coding system, but point out that data transmission over the Internet (e.g. when communicating by e-mail) can have security gaps. A complete protection of the data against access by third parties is not possible. To secure your data, we maintain technical and organizational security measures in accordance with Art. 32 GDPR, which we continually adapt to the state of the art. Furthermore, we do not guarantee that our services will be available at certain times; malfunctions, interruptions or failures cannot be ruled out.
 
-# 5. Storage period
+### 5. Storage period
 
 Unless specifically stated, we will only store personal data for as long as is necessary to fulfill the purposes for which it was collected.
 
@@ -56,7 +56,7 @@ You can prevent cookies from being stored by using the appropriate settings in y
 
 Our website uses functions provided by the web analysis provider Google Analytics. This service is provided by Google Inc. (1600 Amphitheater Parkway Mountain View, CA 94043, USA) and uses cookies to enable the analysis of the use of our website by your users. The information generated in this way is transferred to the provider’s server and stored there.
 
-You can prevent this from happening by changing the settings on your browser so that cookies are not stored.
+You can prevent this from happening by changing the settings on your browser so that cookies are not stored or <a href="javascript:gaOptout();">Deactivate Google Analytics</a>
 
 All appropriate measures are taken to ensure that this service can be used in compliance with data protection policy.
 
