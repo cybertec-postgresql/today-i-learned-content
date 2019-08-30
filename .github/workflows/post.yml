@@ -43,4 +43,5 @@ jobs:
         working-directory: /home/runner/work/today-i-learned-content/today-i-learned
         name: Run bot
         env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
