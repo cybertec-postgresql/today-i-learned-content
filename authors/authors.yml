@@ -1,14 +1,128 @@
 - email: sascha.lampalzer@cybertec.at
   name: Alexander Lampalzer
-  subtitle: "Software Developer"
+  subtitle: Full Stack Developer
   github: sascha8a
+
 - email: lorenz.henk@cybertec.at
   name: Lorenz Henk
-  subtitle: "Software Developer"
+  subtitle: Full Stack Developer
+  github: lorenzhenk
+  linkedin: lorenz-henk-254095176
+
 - email: philip.trauner@cybertec.at
   name: Philip Trauner
-  subtitle: Software Developer
+  subtitle: Full Stack Developer
   twitter: PhilipTrauner
   github: PhilipTrauner
   linkedin: philip-trauner
   web: https://philip-trauner.me
+
+- email: pavlo.golub@cybertec.at
+  name: Pavlo Golub
+  subtitle: PostgreSQL Consultant & Software Developer
+  twitter: pavlogolub
+  github: pashagolub
+  linkedin: pashagolub
+  web: https://pgolub.wordpress.com/
+
+- email: hs@cybertec.at
+  name: Hans-Jürgen Schönig
+  subtitle: CEO
+  twitter: postgresql_007
+  github: postgresql007
+  linkedin: hans-juergen-schoenig-bbbb075
+
+- email: km@cybertec.at
+  name: Kaarel Moppel
+  subtitle: PostgreSQL Consultant & PGWatch Maintainer
+  github: kmoppel
+  linkedin: kaarelmoppel
+
+- email: ants@cybertec.at
+  name: Ants Aasma
+  subtitle: PostgreSQL Contributor & Consultant
+  twitter: pavlogolub
+  github: ants
+  linkedin: ants-aasma-a28757a7
+
+- email: julian.markwort@cybertec.at
+  name: Julian Markwort
+  subtitle: PostgreSQL Contributor & Consultant
+  github: markwort
+
+- email: ah@cybertec.at
+  name: Antonin Houska
+  subtitle: PostgreSQL Contributor
+  github: ahouska
+  web: https://www.melesmeles.cz/
+
+- email: gerardo.kobluk@cybertec.at
+  name: Gerardo Kobluk
+  subtitle: Software Developer
+  github: gkobluk
+  twitter: gerardokobluk
+
+- email: carlos.barbiero@cybertec.at
+  name: Carlos Barbiero
+  subtitle: DevOps
+  github: carlosbrb
+  twitter: carlosbrb
+
+- email: armin.nesiren@cybertec.at
+  name: Armin Nesiren
+  subtitle: DevOps
+  github: nesiren
+
+- email: laurenz.albe@cybertec.at
+  name: Laurenz Albe
+  subtitle: PostgreSQL Contributor & Consultant
+  github: laurenz
+
+- email: kieran.kaelin@cybertec.at
+  name: Kieran Kaelin
+  subtitle: Backend Developer
+  github: KieranKaelin
+  linkedin: kieran-kaelin-695832182
+
+- email: marcelo.diaz@cybertec.at
+  name: Marcelo Diaz
+  subtitle: PostgreSQL Consultant
+  github: marcelorauldiaz
+
+- email: svitlana.lytvynenko@cybertec.at
+  name: Svitlana lytvynenko
+  subtitle: Frontend Developer
+  github: Lana8Lee
+  linkedin: svitlana-lytvynenko-765744114
+  web: https://lana8lee.github.io/
+
+- email: andres.garcia@cybertec.at
+  name: Andres Garcia
+  subtitle: Full Stack Developer
+  github: agstrauss
+  linkedin: andres-garcia-599044185
+
+- email: agustin.ramirez@cybertec.at
+  name: Agustin Ramirez
+  subtitle: Frontend Engineer
+  github: ramirezagustin
+  linkedin: ramirezagustin
+
+- email: juan.martin.gimenez@cybertec.at
+  name: Juan Martin Gimenez
+  subtitle: Frontend Engineer
+  github: annonip
+  linkedin: ann0nip
+  web: http://www.juanmartingimenez.com/
+
+- email: hr@cybertec.at
+  name: Hernan Resnizky
+  subtitle: Senior Data Scientist
+  github: nivangio
+  linkedin: hernan-resnizky/en
+  web: https://hernanresnizky.com/
+
+- email: patrick.thomschitz@cybertec.at
+  name: Patrick Thomschitz
+  subtitle: PostgreSQL Consultant
+  github: immercool
