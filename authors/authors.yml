@@ -2,12 +2,14 @@
   name: Alexander Lampalzer
   subtitle: Full Stack Developer
   github: sascha8a
+  slack: UM6GAS41Z
 
 - email: lorenz.henk@cybertec.at
   name: Lorenz Henk
   subtitle: Full Stack Developer
   github: lorenzhenk
   linkedin: lorenz-henk-254095176
+  slack: UBATRPUES
 
 - email: philip.trauner@cybertec.at
   name: Philip Trauner
@@ -16,6 +18,7 @@
   github: PhilipTrauner
   linkedin: philip-trauner
   web: https://philip-trauner.me
+  slack :UBBDEPC91
 
 - email: pavlo.golub@cybertec.at
   name: Pavlo Golub
@@ -24,6 +27,7 @@
   github: pashagolub
   linkedin: pashagolub
   web: https://pgolub.wordpress.com/
+  slack: UD1B9HKH6
 
 - email: hs@cybertec.at
   name: Hans-Jürgen Schönig
@@ -31,12 +35,14 @@
   twitter: postgresql_007
   github: postgresql007
   linkedin: hans-juergen-schoenig-bbbb075
+  slack: UB96YF59N
 
 - email: km@cybertec.at
   name: Kaarel Moppel
   subtitle: PostgreSQL Consultant & PGWatch Maintainer
   github: kmoppel
   linkedin: kaarelmoppel
+  slack: UC07UQB97
 
 - email: ants@cybertec.at
   name: Ants Aasma
@@ -44,50 +50,59 @@
   twitter: pavlogolub
   github: ants
   linkedin: ants-aasma-a28757a7
+  slack: UCUEBS6L9
 
 - email: julian.markwort@cybertec.at
   name: Julian Markwort
   subtitle: PostgreSQL Contributor & Consultant
   github: markwort
+  slack: UBF4FFSV7
 
 - email: ah@cybertec.at
   name: Antonin Houska
   subtitle: PostgreSQL Contributor
   github: ahouska
   web: https://www.melesmeles.cz/
+  slack: UD43V4DST
 
 - email: gerardo.kobluk@cybertec.at
   name: Gerardo Kobluk
   subtitle: Software Developer
   github: gkobluk
   twitter: gerardokobluk
+  slack: UEMVAF7PE
 
 - email: carlos.barbiero@cybertec.at
   name: Carlos Barbiero
   subtitle: DevOps
   github: carlosbrb
   twitter: carlosbrb
+  slack: UDB8QNMSB
 
 - email: armin.nesiren@cybertec.at
   name: Armin Nesiren
   subtitle: DevOps
   github: nesiren
+  slack: UDK6KMGJJ
 
 - email: laurenz.albe@cybertec.at
   name: Laurenz Albe
   subtitle: PostgreSQL Contributor & Consultant
   github: laurenz
+  slack: UCPEXG45C
 
 - email: kieran.kaelin@cybertec.at
   name: Kieran Kaelin
   subtitle: Backend Developer
   github: KieranKaelin
   linkedin: kieran-kaelin-695832182
+  slack: UJAA38M24
 
 - email: marcelo.diaz@cybertec.at
   name: Marcelo Diaz
   subtitle: PostgreSQL Consultant
   github: marcelorauldiaz
+  slack: UD25X6W2F
 
 - email: svitlana.lytvynenko@cybertec.at
   name: Svitlana lytvynenko
@@ -95,18 +110,21 @@
   github: Lana8Lee
   linkedin: svitlana-lytvynenko-765744114
   web: https://lana8lee.github.io/
+  slack: UGX7D40D8
 
 - email: andres.garcia@cybertec.at
   name: Andres Garcia
   subtitle: Full Stack Developer
   github: agstrauss
   linkedin: andres-garcia-599044185
+  slack: UG2V1GEM7
 
 - email: agustin.ramirez@cybertec.at
   name: Agustin Ramirez
   subtitle: Frontend Engineer
   github: ramirezagustin
   linkedin: ramirezagustin
+  slack: UDYN1SD63
 
 - email: juan.martin.gimenez@cybertec.at
   name: Juan Martin Gimenez
@@ -114,6 +132,7 @@
   github: annonip
   linkedin: ann0nip
   web: http://www.juanmartingimenez.com/
+  slack: UEXUC820J
 
 - email: hr@cybertec.at
   name: Hernan Resnizky
@@ -121,8 +140,10 @@
   github: nivangio
   linkedin: hernan-resnizky/en
   web: https://hernanresnizky.com/
+  slack: UB9UMG8TD
 
 - email: patrick.thomschitz@cybertec.at
   name: Patrick Thomschitz
   subtitle: PostgreSQL Consultant
   github: immercool
+  slack: UKQ88FE2F
