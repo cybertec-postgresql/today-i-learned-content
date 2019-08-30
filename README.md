@@ -37,16 +37,17 @@ docker-compose up --build
 
 ### 3. Add yourself as an author
 
-Edit the file located under [./authors/authors.yml](./authors/authors.yml) and push these changes to the repo.
+(It might be the case, that you've already be added to the authors list.)
+Edit the file located under [./authors/authors.yml](./authors/authors.yml) and add yourself to the authors list. **Push these changes now, if they are in a content PR, they will get deleted.**
 
 ### 4. Write a post
 
-New posts have to be written in [./posts/TEMPLATE/index.md](./posts/TEMPLATE/index.md). **This file should not be renamed or moved to a different location.** The normal github flavourered markdown syntax can be used.
+New posts have to be written in [./posts/TEMPLATE/index.md](./posts/TEMPLATE/index.md). **This file should not be renamed or moved to a different location.** The normal github flavoured markdown syntax can be used.
 
 To preview the newly created post visit [http://localhost:8000](http://localhost:8000). Now all that is left to do is create a new Pull Request and label it with "Content 📖" (or even with "Priority ❗").
 
 ### 5. Approval
 
-The newly created pull request is proofread by one (or multiple) proofreaders and then approved. Daily at 15:00 GMT+0 one random post is automatically selected and published!
+The newly created pull request is proofread by one (or multiple) proofreaders and then approved. Daily at 12:00 GMT+0 one random post is automatically selected and published!
 
 That's it!
