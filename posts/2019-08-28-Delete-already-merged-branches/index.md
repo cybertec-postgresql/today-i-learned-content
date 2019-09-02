@@ -26,4 +26,4 @@ $ git branch --merged | egrep -v "(^\*|master)" | xargs git branch -d
 Deleted branch feature-1 (was 1d7fd54).
 ```
 
-Check out this great [stackoverflow answer](https://stackoverflow.com/questions/6127328/how-can-i-delete-all-git-branches-which-have-been-merged/6127884#6127884) for more information.
+Check out this great [Stack Overflow answer](https://stackoverflow.com/questions/6127328/how-can-i-delete-all-git-branches-which-have-been-merged/6127884#6127884) for more information.
