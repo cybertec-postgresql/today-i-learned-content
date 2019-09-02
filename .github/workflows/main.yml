@@ -36,6 +36,11 @@ jobs:
       - run: yarn build
         working-directory: /home/runner/work/today-i-learned-content/today-i-learned
         name: Build site
+
+  deploy:
+    name: Deploy to GitHub Pages
+    runs-on: ubuntu-latest
+    steps:
       - run: gh-pages -d public -b master -r https://sascha8a:$GITHUB_TOKEN@github.com/cybertec-postgresql/today-i-learned-gh-pages.git -u "Cybertec Bot <no-reply@cybertec.at>"
         name: Deploy
         working-directory: /home/runner/work/today-i-learned-content/today-i-learned
