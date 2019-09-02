@@ -10,10 +10,5 @@
         "distDir": "today-i-learned/public"
       }
     }
-  ],
-  "build": {
-    "env": {
-      "NODE_ENV": "development"
-    }
-  }
+  ]
 }
