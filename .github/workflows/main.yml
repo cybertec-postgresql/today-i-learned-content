@@ -40,6 +40,7 @@ jobs:
   deploy:
     name: Deploy to GitHub Pages
     runs-on: ubuntu-latest
+    needs: build
     steps:
       - run: gh-pages -d public -b master -r https://sascha8a:$GITHUB_TOKEN@github.com/cybertec-postgresql/today-i-learned-gh-pages.git -u "Cybertec Bot <no-reply@cybertec.at>"
         name: Deploy
