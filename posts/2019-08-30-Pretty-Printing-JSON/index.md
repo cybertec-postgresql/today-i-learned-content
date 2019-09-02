@@ -1,8 +1,15 @@
 ---
-date: 2019-07-30
+date: 2019-08-30
 title: Pretty Printing JSON
 author: lorenz.henk@cybertec.at
-tags: ["json", "command-line", "python", "postgresql", "javascript", "formatting"] # max. 10 tags; lowercase; dash-separated
+tags: [
+    "json",
+    "command-line",
+    "python",
+    "postgresql",
+    "javascript",
+    "formatting",
+  ] # max. 10 tags; lowercase; dash-separated
 description: "How to pretty print json in different programming languages and in the command line" # max. 300 chars.
 ---
 

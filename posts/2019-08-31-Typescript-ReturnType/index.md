@@ -1,5 +1,5 @@
 ---
-date: 2019-07-31
+date: 2019-08-31
 title: Typescript ReturnType
 author: lorenz.henk@cybertec.at
 tags: ["typescript", "typing", "utility", "returntype"] # max. 10 tags; lowercase; dash-separated
@@ -14,21 +14,23 @@ Suppose you have the following function definition:
 
 ```typescript
 type IsInText = (
-  text: string,
+  text: string
 ) => (
   term: string,
   minCount: number,
   maxCount?: number,
-  caseSensitive?: boolean,
-) => boolean;
+  caseSensitive?: boolean
+) => boolean
 ```
-Now we want to write a function `allTermsInText`, that takes the function *returned by* `isInText` as an argument. It should be used like:
+
+Now we want to write a function `allTermsInText`, that takes the function _returned by_ `isInText` as an argument. It should be used like:
 
 ```typescript
 allTermsInText(["Typescript", "awesome"], isInText("Typescript is awesome!"))
 ```
 
 Here is the definition **without** the utility type:
+
 ```typescript
 type AllTermsInText = (
   terms: string[],
@@ -36,14 +38,15 @@ type AllTermsInText = (
     term: string,
     minCount: number,
     maxCount?: number,
-    caseSensitive?: boolean,
-  ) => boolean,
-) => boolean;
+    caseSensitive?: boolean
+  ) => boolean
+) => boolean
 ```
 
 And here the same function definition, but using **`ReturnType`** for the parameters:
+
 ```typescript
 let AllTermsInText = (terms: string[], search: ReturnType<IsInText>) => {
-  return !terms.find(term => !search(term, 1));
-};
+  return !terms.find(term => !search(term, 1))
+}
 ```
