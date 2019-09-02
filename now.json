@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "name": "Today I learned @Cybertec",
+  "scope": "cybertec",
+  "builds": [
+    {
+      "src": "build.sh",
+      "use": "@now/static-build",
+      "config": {
+        "distDir": "today-i-learned/public"
+      }
+    }
+  ]
+}
