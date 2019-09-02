@@ -6,11 +6,11 @@ tags: ["postgresql", "psql", "pager", "automation"] # max. 10 tags; lowercase; d
 description: "How to disable the pager in psql output" # max. 300 chars.
 ---
 
-PostgreSQL's [CLI `psql`](https://www.postgresql.org/docs/current/app-psql.html) has lots of really helpful features.
+PostgreSQL's [CLI `psql`](https://www.postgresql.org/docs/current/app-psql.html) offers a myriad of helpful features.
 
-For example, `psql` recognizes, when a large result-set is returned, and uses a [_pager_](https://unix.stackexchange.com/questions/144016/what-is-a-pager) to display the content.
+For example, `psql` detects whenever a large result-set is returned and uses a [_pager_](https://unix.stackexchange.com/questions/144016/what-is-a-pager) to display the content.
 
-This is great for viewing your data, but really annoying for automating tasks, as the pager needs user input to be terminated.
+While this is great for viewing your data, it is really inconvenient for automating tasks, as the pager needs user input to be terminated. \
 So, how can we circumvent / deactivate the pager?
 
 ```bash
