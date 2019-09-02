@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "name": "Today I learned @Cybertec",
+  "name": "today-i-learned-content",
   "scope": "cybertec",
   "builds": [
     {
