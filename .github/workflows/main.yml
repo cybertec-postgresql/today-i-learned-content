@@ -8,7 +8,7 @@ on:
 
 jobs:
   build:
-    name: Build Page
+    name: Build and Deploy
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
