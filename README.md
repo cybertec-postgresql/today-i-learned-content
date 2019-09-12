@@ -30,7 +30,12 @@ git clone git@github.com:cybertec-postgresql/today-i-learned-content.git
 
 # Change into the directory
 cd today-i-learned-content
+```
+> Before running `docker-compose`, make sure that the current working directory does not contain /usr or /home or a link to your ~. The mount option `:Z` will result in the addition of the `svirt_sandbox_file_t` tag to all directories and folders that contained (recursively) in the current working directory.
 
+> If you're unsure, ask somebody who knows about SELinux for assistance. Or read [this](http://www.projectatomic.io/blog/2016/03/dwalsh_selinux_containers/).
+
+```bash
 # Start docker container for previews
 docker-compose up --build
 ```
