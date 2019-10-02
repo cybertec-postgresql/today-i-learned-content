@@ -1,5 +1,5 @@
 ---
-date: 2019-010-01
+date: 2019-10-01
 title: Quickly test whether ports can be reached on your linux machine
 author: julian.markwort@cybertec.at
 tags: ["firewall", "linux", "netcat", "nc", "ports", "testing", "probe", "listening address"] # max. 10 tags; lowercase; dash-separated
