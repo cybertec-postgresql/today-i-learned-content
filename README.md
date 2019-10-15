@@ -30,6 +30,7 @@ git clone git@github.com:cybertec-postgresql/today-i-learned-content.git
 
 # Change into the directory
 cd today-i-learned-content
+git lfs pull
 ```
 > Before running `docker-compose`, make sure that the current working directory does not contain /usr or /home or a link to your ~. The mount option `:Z` will result in the addition of the `svirt_sandbox_file_t` tag to all directories and folders that contained (recursively) in the current working directory.
 
