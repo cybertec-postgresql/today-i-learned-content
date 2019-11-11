@@ -2,7 +2,7 @@
 date: 2019-11-04
 title: Typescript module declarations are ignored
 author: lorenz.henk@cybertec.at
-tags: ["typescript", "ts-node", "module", "declare", ".d.ts"] # max. 10 tags; lowercase; dash-separated
+tags: ["typescript", "ts-node", "module", "declare", "type", "definition"] # max. 10 tags; lowercase; dash-separated
 description: "" # max. 300 chars.
 ---
 
