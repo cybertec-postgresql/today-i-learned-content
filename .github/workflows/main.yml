@@ -23,10 +23,10 @@ jobs:
         with:
           path: today-i-learned/content
           lfs: true
-      - uses: actions/setup-node@master
+      - uses: actions/setup-node@v1.1.0
         name: Install node
         with:
-          node-version: "10.x"
+          version: "10.x"
       - name: Install yarn
         working-directory: /home/runner/work/today-i-learned-content/today-i-learned
         run: npm install -g yarn gh-pages
