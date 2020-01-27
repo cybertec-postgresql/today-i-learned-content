@@ -9,14 +9,14 @@ jobs:
     name: Publish new post
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@master
+      - uses: actions/checkout@v1
         name: Clone bot
         with:
           repository: cybertec-postgresql/today-i-learned-bot
           token: ${{ secrets.GH_TOKEN }}
           ref: master
           path: today-i-learned
-      - uses: actions/checkout@master
+      - uses: actions/checkout@v1
         name: Clone content
         with:
           path: today-i-learned/today-i-learned-content
@@ -29,7 +29,7 @@ jobs:
           git config --global user.name "CybertecBot"
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-      - uses: actions/setup-node@master
+      - uses: actions/setup-node@v1
         name: Install node
         with:
           node-version: "10.x"
