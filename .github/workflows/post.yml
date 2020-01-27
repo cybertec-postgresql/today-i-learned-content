@@ -34,7 +34,6 @@ jobs:
         with:
           node-version: "10.x"
       - name: Install yarn
-        working-directory: /home/runner/work/today-i-learned-content/today-i-learned
         run: npm install -g yarn gh-pages
       - name: Install dependencies
         working-directory: /home/runner/work/today-i-learned-content/today-i-learned
