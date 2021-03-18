@@ -29,7 +29,7 @@ select array_to_string(array['first line', 'second line', 'third line'], E'\n');
 -----------------
  first line     +
  second line    +
- third reich
+ third line
 ```
 
 There's no need to prefix the template string when using `format`, as `E`-strings are substituted in literally.
